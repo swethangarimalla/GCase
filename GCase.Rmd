@@ -1,0 +1,54 @@
+---
+title: "GCase Report"
+author: "SwethaNGarimalla"
+date: "3/14/2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::kable
+```
+
+## Objective
+# Assay Introduction and Objective
+
+Following in vivo administration of a gene therapy product, a critical assessment of the vector biodistribution is desired for target, as well as off-target, tissues. This data can be used to inform dosing and as well as tissue-specific detrimental effects and/or concerns. This assay is conducted using quantitative PCR (qPCR) to evaluate the number of vector copies per microgram of total genomic DNA in each tissue sample.
+
+Here we report the vector copy assessment of **PR001A** for the **PRV-2018-005 non-GLP** tissue samples, including:
+
+*	Cortex
+*	Liver
+*	Spleen
+*	Kidney
+*	Gonad
+*	Heart
+*	Lung
+
+For all mice in all treatment groups.
+
+
+Assay sample disposition/summary:
+
+```{r cars}
+summary(cars)
+```
+
+# Assay Test Method
+* gDNA Extraction
+* purelink_pro96_gdna_kit_man.pdf
+* TM-001 v01 VCN by qPCR_TDF.docx
+* Instrumentation
+* *  Instruments used:
+* * *  qPCR: QuantStudio3, serial 272321952
+
+# Assay Results
+# Discussion/Conclusions
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
